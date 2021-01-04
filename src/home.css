@@ -1,0 +1,50 @@
+.logo {
+  width: 30vw;
+  margin: auto;
+}
+
+.presentation-container {
+  width: 100%;
+  padding: 3em;
+}
+
+.presentation {  
+  font-weight: 500;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 1em 0 1em 0;
+}
+
+.presentation-title {
+  padding-top: 0.5em;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.presentation-subtitle {
+  text-align: center;
+  padding-top: 1em;
+  font-size: 1.5em;
+}
+
+.homescreen {
+  height: 85vh;
+}
+
+.welcome-text {
+  text-align: left;
+  padding-left: 3em;
+  padding-top: 5em;
+  line-height: 3em;
+}
+
+@media only screen and (max-width: 800px) {
+  .logo {
+    min-width: 50vw;
+  }
+
+  .welcome-text {
+    padding-top: 2em;
+  }
+}

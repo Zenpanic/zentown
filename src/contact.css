@@ -1,0 +1,20 @@
+.contact-container {
+    width: 50vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: center;
+    padding-bottom: 2em;
+}
+
+.contact-element {
+    padding: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.contact-element > * {
+    padding: 0.5em;
+}

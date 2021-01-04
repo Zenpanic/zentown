@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import { FormattedMessage, FormattedHTMLMessage } from 'react-intl';
+import 'tachyons';
+import Nav from './Nav';
+import Footer from './Footer';
+import Home from './Home';
+import Services from './Services';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
 
-function App() {
+const App = () => {
+
+  const [page, setPage] = useState(<Home />);
+
+  const changePage = (e) => {
+    if (e === 'Home') {
+      setPage(<Home />);
+    } else if (e === 'Services') {
+      setPage(<Services changePage={changePage} />);
+    } else if (e === 'Portfolio') {
+      setPage(<Portfolio />);
+    } else if (e === 'Contact') {
+      setPage(<Contact />);
+    }
+    window.scrollTo(0, 0);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Nav changePage={changePage} />
+      {page}
+      <Footer />
+    </>
   );
 }
 

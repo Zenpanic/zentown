@@ -1,0 +1,141 @@
+.pricing {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    padding: 2em 5em 0em 5em;    
+}
+
+.pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;    
+}
+
+.pricing-element {
+    box-shadow: 0 4px 20px rgba(0,0,0,.12);
+    padding: 1.5em;
+    width: 30%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.pricing-text {
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 2em;
+}
+
+.product-title {
+    height: 10vh;
+    width: 100%;
+    padding: 1em 1em 2.5em 1em;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    font-size: 1.7em;
+    text-align: center;
+    background-color: #edf2f7;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.product-description {    
+    padding-bottom: 1em;
+    box-sizing: border-box;
+    padding-top: 1em;
+    margin-top: 0;
+    text-align: center;
+    background-color:#f6f0ff;
+    
+    width: 100%;
+}
+
+.product-feature {
+    font-size: large;
+}
+
+.premium {
+    font-weight: 550;
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    
+}
+
+li {
+    list-style-type: none;
+    padding: 1em 0.2em 1em 0.2em;
+    text-align: center;
+    width: 100%;
+}
+
+.odd-li {
+    background-color:#eaf5fe;
+}
+
+.even-li {
+    background-color: #e3f0ff;
+}
+
+.product-pricetag {
+    width: 100%;
+    text-align: center;
+    background-color: #efe4ff;
+    padding: 1em;
+    letter-spacing: 0.15em;
+    font-weight: 1000;
+    
+}
+
+.product-price {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.askPrice {
+    width: 50%;
+    padding: 1em;
+    font-weight: 700;
+    border: 1px solid#46688e;
+    background-color: #f7fafc;
+    color: #6b99cd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.askPrice:hover {
+    background-color:#6b99cd;
+    color: #f7fafc;
+}
+
+@media only screen and (max-width: 600px) {
+    .pricing {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+  }
+
+@media only screen and (max-width: 1200px) {
+    .pricing-container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .pricing-element {
+        padding: 1.5em;
+        width: 100%;
+    }
+}

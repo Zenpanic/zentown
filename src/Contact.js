@@ -8,7 +8,7 @@ const Contact = () => {
 
     const desc = <h1 className="logodesc"><FormattedMessage
         id="contact.logo-desc"
-        defaultMessage="Contact us for any questions you have about building your project, and how we can help you make it become a reality."
+        defaultMessage="Contact us with any questions you have about building your project, and how we can help you make it become a reality."
     /></h1>
 
     return (
@@ -31,7 +31,7 @@ const Contact = () => {
                     <textarea id="contact-message" name="contact-message" rows="5" cols="50"></textarea>
                 </div>
                 <div className="contact-element">
-                    <button type="submit"><FormattedMessage
+                    <button className="submitButton" type="submit"><FormattedMessage
                         id="contact.send"
                         defaultMessage="Send" />
                     </button>

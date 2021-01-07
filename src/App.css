@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'fira_sans';
+    src: local('fira_sans'), url(./fonts/FiraSansCondensed-Regular.woff);
+}
+
+@font-face {
+    font-family: 'dogicapixel';
+    src: local('dogicapixel'), url(./fonts/dogicapixel.otf);
+}
+
 html {
     background-color: #f7fafc;
+    font-family: fira_sans, sans-serif;
 }
+
+@media only screen and (min-width: 500px) {
+    h1, h2 {
+        font-family: dogicapixel, sans-serif;
+    }
+  }

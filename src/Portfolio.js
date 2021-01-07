@@ -27,11 +27,11 @@ const Portfolio = () => {
                             id="portfolio-p1-desc"
                             defaultMessage="Way of Speaking - A landing page built for a France based online english teacher. The front-end is entirely handmade, the back-end uses Node.js with Express." />
                         </p>
-                        <a className="github-link" href="https://github.com/Zenpanic/wayofspeaking" target="_blank"><FormattedMessage
+                        <a className="github-link dim" href="https://github.com/Zenpanic/wayofspeaking" target="_blank" rel="noopener"><FormattedMessage
                             id="portfolio-githublink"
                             defaultMessage="Source Code" />
                         </a>
-                        <a className="live-link" href="https://wayofspeaking.com" target="_blank"><FormattedMessage
+                        <a className="live-link dim" href="https://wayofspeaking.com" target="_blank" rel="noopener"><FormattedMessage
                             id="portfolio-livelink"
                             defaultMessage="See Live" />
                         </a>
@@ -45,15 +45,15 @@ const Portfolio = () => {
                             id="portfolio-p2-desc"
                             defaultMessage="Oeil - A facial recognition app, able to detect the faces in the pictures provided to it. Made with React, Node.js, Express and the Clarifai API." />
                         </p>
-                        <a className="github-link" href="https://github.com/Zenpanic/oeil-frontend" target="_blank"><FormattedMessage
+                        <a className="github-link dim" href="https://github.com/Zenpanic/oeil-frontend" target="_blank" rel="noopener"><FormattedMessage
                             id="portofolio.githublink-frontend"
                             defaultMessage="Source Code Front-End" />
                         </a>
-                        <a className="github-link" href="https://github.com/Zenpanic/oeil-api" target="_blank"><FormattedMessage
+                        <a className="github-link dim" href="https://github.com/Zenpanic/oeil-api" target="_blank" rel="noopener"><FormattedMessage
                             id="portofolio.githublink-backend"
                             defaultMessage="Source Code Back-End" />
                         </a>
-                        <a className="live-link" href="https://oeil.herokuapp.com/" target="_blank"><FormattedMessage
+                        <a className="live-link dim" href="https://oeil.herokuapp.com/" target="_blank" rel="noopener"><FormattedMessage
                             id="portfolio.livelink"
                             defaultMessage="See Live" />
                         </a>
@@ -67,11 +67,11 @@ const Portfolio = () => {
                             id="portfolio-p3-desc"
                             defaultMessage="Description of the 3rd project" />
                         </p>
-                        <a className="github-link" href=""><FormattedMessage
+                        <a className="github-link dim" href=""><FormattedMessage
                             id="portofolio.githublink"
                             defaultMessage="Source Code" />
                         </a>
-                        <a className="live-link" href=""><FormattedMessage
+                        <a className="live-link dim" href=""><FormattedMessage
                             id="portfolio.livelink"
                             defaultMessage="See Live" />
                         </a>

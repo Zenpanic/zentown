@@ -12,6 +12,7 @@
     text-decoration: none;
     font-weight: 600;
     font-size: 1.2em;
+    line-height: 1.3em;
 }
 
 .project-text > a:link {
@@ -23,12 +24,14 @@
 }
 
 .project {
+    box-sizing: border-box;
     padding: 2em;
     width: 50%;
     display: inline-block;
 }
 
 .project-image {
+    box-shadow: 0 4px 20px rgba(0,0,0,.12);
     width: 100%;
     padding: 1em;
     height: auto;
@@ -39,7 +42,8 @@
     margin: 0.5em;
     font-size: 1.2em;
     font-weight: 500;
-    color:#5985b5;
+    line-height: 1.4em;
+    color:#46688e;
 }
 
 .project-text > * {
@@ -55,7 +59,7 @@
     }
 
     .project {
-        padding: 2em;
+        padding: 1em;
         width: 100%;
     }
 }

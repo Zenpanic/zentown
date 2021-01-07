@@ -3,3 +3,7 @@
     box-sizing: border-box;
     margin-top: 2em;
 }
+
+.breakLine {
+    margin: 2em 0 1em 0;
+}

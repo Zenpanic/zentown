@@ -1,3 +1,7 @@
+.pricing-text {
+    font-style: italic;
+}
+
 .pricing {
     display: flex;
     flex-wrap: nowrap;
@@ -43,6 +47,8 @@
     background-color: #edf2f7;
     display: table-cell;
     vertical-align: middle;
+    letter-spacing: 0.25em;
+    color: #ff1154;
     
 }
 
@@ -53,12 +59,15 @@
     margin-top: 0;
     text-align: center;
     background-color:#f6f0ff;
-    
+    line-height: 1.5em;    
     width: 100%;
+    color: #364f6b;
 }
 
 .product-feature {
     font-size: large;
+    line-height: 1.2em;
+    color: #466891;
 }
 
 .premium {
@@ -96,6 +105,7 @@ li {
     padding: 1em;
     letter-spacing: 0.15em;
     font-weight: 1000;
+    color: #466891;
     
 }
 

@@ -9,7 +9,7 @@ const Nav = props => {
     return (
         <>
             <header className="bg-black-80 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l navbar">
-                <img src={LogoDark} alt="ZenTown Logo" className="logo-nav" />
+                <img src={LogoDark} alt="ZenTown Logo" className="logo-nav" onClick={() => props.changePage('Home')} />
 
                 <nav className="f6 fw6 ttu tracked">
                     <button className="nav-button dim dib mr3 white link" value="Home" onClick={() => props.changePage('Home')} title="Home">

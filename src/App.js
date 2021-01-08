@@ -8,6 +8,8 @@ import Home from './Home';
 import Services from './Services';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
+import Legal from './Legal';
+import Terms from './Terms';
 
 const App = () => {
 
@@ -22,6 +24,10 @@ const App = () => {
       setPage(<Portfolio />);
     } else if (e === 'Contact') {
       setPage(<Contact />);
+    } else if (e === 'Legal') {
+      setPage(<Legal />);
+    } else if (e === 'Terms') {
+      setPage(<Terms />);
     }
     window.scrollTo(0, 0);
   }
@@ -30,7 +36,7 @@ const App = () => {
     <>
       <Nav changePage={changePage} />
       {page}
-      <Footer />
+      <Footer changePage={changePage} />
     </>
   );
 }

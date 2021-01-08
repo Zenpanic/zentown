@@ -1,0 +1,21 @@
+.legalPageContainer {
+    padding: 6em 1em 0 1em;
+}
+
+.legal-main-title {
+    padding-bottom: 0.5em;;
+}
+
+.legal-sub-title {
+    padding-top: 1em;
+}
+
+.cgv-ul {
+    list-style-position: inside;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.cgv-li {
+    list-style-type: disc;
+    text-align: start;
+}

@@ -7,3 +7,18 @@
 .breakLine {
     margin: 2em 0 1em 0;
 }
+
+.legal {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.legal-element {
+    padding: 0 2em 0 2em;
+    border: none;
+    background: none;
+    cursor: pointer;
+}

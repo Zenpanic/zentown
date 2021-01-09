@@ -13,11 +13,9 @@ import Terms from './Terms';
 
 const App = () => {
 
-  const [page, setPage] = useState(<Home />);
-
   const changePage = (e) => {
     if (e === 'Home') {
-      setPage(<Home />);
+      setPage(<Home changePage={changePage} />);
     } else if (e === 'Services') {
       setPage(<Services changePage={changePage} />);
     } else if (e === 'Portfolio') {
@@ -31,6 +29,8 @@ const App = () => {
     }
     window.scrollTo(0, 0);
   }
+
+  const [page, setPage] = useState(<Home changePage={changePage} />);
 
   return (
     <>

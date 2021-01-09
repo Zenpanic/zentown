@@ -15,7 +15,7 @@ import Prototype from './images/process/prototype.png';
 import Deployment from './images/process/deployment.png';
 import Maintenance from './images/process/maintenance.png';
 
-const Home = () => {
+const Home = props => {
 
     return (
         <>
@@ -31,9 +31,9 @@ const Home = () => {
                         <h2 className="fw1 f3 white-90 mt3 mb4"><FormattedMessage
                             id="home.subtitle"
                             defaultMessage="Make your web dreams come true!" /></h2>
-                        <a className="no-underline grow dib v-mid ba ph3 mb3 button-text" href=""><FormattedMessage
+                        <button className="no-underline grow dib v-mid ba ph3 mb3 button-text" onClick={() => props.changePage('Contact')}><FormattedMessage
                             id="home.contactUs"
-                            defaultMesssage="Contact Us!" /></a>
+                            defaultMesssage="Contact Us!" /></button>
                     </div>
                 </div>
             </div>

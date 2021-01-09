@@ -20,6 +20,10 @@
   color:#ff1154;
   border-color: #ff1154;
   border-width: 2px;
+  background: none;
+  padding: 0.5em;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 
 .siteTitle {

@@ -60,7 +60,7 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div className="project">
+                {/*  <div className="project">
                     <img className="project-image dim" src={Project2} alt=""></img>
                     <div className="project-text">
                         <p className="project-description"><FormattedMessage
@@ -76,7 +76,7 @@ const Portfolio = () => {
                             defaultMessage="See Live" />
                         </a>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )

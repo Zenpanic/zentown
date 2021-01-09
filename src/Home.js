@@ -123,7 +123,7 @@ const Home = () => {
                                 <FormattedMessage
                                     id="home.process-p2"
                                     defaultMessage="Based on the specifications precedently discussed, we will draw up a quote and give you an estimated delivery time. If you agree, we will ask you a 
-                        25% downpaiement and start the development at reception. " />
+                        25% down payment and start the development at reception. " />
                             </p>
                         </div>
                         <div className="processPicture-container">
@@ -164,7 +164,7 @@ const Home = () => {
                                 <FormattedMessage
                                     id="home.process-p4"
                                     defaultMessage="After a thourough testing phase, your website will be deployed and accessible under your domain name. We'll charge you at this point the 
-                        remaining 75% of the price agreed on. We will keep an eye on the website for the next 7 days to make sure that everything is running smoothly, and will fix 
+                        remaining 75% of the price agreed on. We will keep an eye on the website for the next 15 days to make sure that everything is running smoothly, and will fix 
                         free of charge any technical issue that may occur during this time." />
                             </p>
                         </div>
@@ -184,7 +184,7 @@ const Home = () => {
                             <p className="process">
                                 <FormattedMessage
                                     id="home.process-p5"
-                                    defaultMessage="If you would like us to take care of the maintenance of your website past the 7 days following the delivery, you can subscribe to the Maintenance 
+                                    defaultMessage="If you would like us to take care of the maintenance of your website past the 15 days following the delivery, you can subscribe to the Maintenance 
                         Package, and focus on nothing else than your content." />
                             </p>
                         </div>

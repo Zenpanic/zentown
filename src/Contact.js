@@ -4,7 +4,7 @@ import './contact.css';
 import 'tachyons';
 import Logo2 from './Logo2';
 
-const Contact = () => {
+const Contact = props => {
 
     const HOST_CONTACT = process.env.REACT_APP_HOST_CONTACT;
 
@@ -29,6 +29,10 @@ const Contact = () => {
         setMessage(e.target.value);
     }
 
+    const redirectHome = () => {
+        props.changePage('Home');
+    }
+
     const sendMessage = () => {
         if (name && email && message) {
             fetch(HOST_CONTACT, {
@@ -41,6 +45,8 @@ const Contact = () => {
                 })
             }).then(() => {
                 setWarningField(goodWarningField);
+            }).then(() => {
+                setTimeout(redirectHome, 2500);
             })
         } else {
             setWarningField(badWarningField);

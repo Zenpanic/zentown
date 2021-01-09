@@ -23,7 +23,7 @@ const App = () => {
     } else if (e === 'Portfolio') {
       setPage(<Portfolio />);
     } else if (e === 'Contact') {
-      setPage(<Contact />);
+      setPage(<Contact changePage={changePage} />);
     } else if (e === 'Legal') {
       setPage(<Legal />);
     } else if (e === 'Terms') {

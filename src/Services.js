@@ -33,7 +33,7 @@ const Services = props => {
                             defaultMessage="Landing Page" />
                     </h1>
                     <div className="product-pricetag">
-                        <p><span className="product-price">800€</span></p>
+                        <p><span className="product-price">900€</span></p>
                     </div>
                     <ul>
                         <li className="product-feature odd-li"><FormattedMessage
@@ -91,7 +91,7 @@ const Services = props => {
                             defaultMessage="E-commerce Platform" />
                     </h1>
                     <div className="product-pricetag">
-                        <p><span className="product-price">1300€</span></p>
+                        <p><span className="product-price">1400€</span></p>
                     </div>
                     <ul>
                         <li className="product-feature odd-li"><FormattedMessage

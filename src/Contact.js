@@ -15,8 +15,14 @@ const Contact = props => {
 
     const [warningField, setWarningField] = useState('');
 
-    const goodWarningField = <div style={{ color: 'green', padding: '0.3em', textAlign: 'center' }}> Success!</div>;
-    const badWarningField = <div style={{ color: 'red', padding: '0.3em', textAlign: 'center' }}> Please make sure that you've filled up all the fields properly.</div>;
+    const goodWarningField = <div style={{ color: 'green', padding: '0.3em', textAlign: 'center' }}><FormattedMessage
+        id="goodWarningField"
+        defaultMessage="Success!" />
+    </div>;
+    const badWarningField = <div style={{ color: 'red', padding: '0.3em', textAlign: 'center' }}><FormattedMessage
+        id="badWarningField"
+        defaultMessage="Please make sure that you've filled up all the fields properly." />
+    </div>;
 
     const onNameChange = e => {
         setName(e.target.value);

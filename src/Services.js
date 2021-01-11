@@ -111,7 +111,7 @@ const Services = props => {
                             defaultMessage="CMS allowing you full control over your content through an admin panel"
                         /></li>
                         <li className="product-feature odd-li"><FormattedMessage
-                            id="services-feature-s5"
+                            id="services.feature-s5"
                             defaultMessage="Contact form linked to your mailbox"
                         /></li>
                         <li className="product-feature even-li"><FormattedMessage

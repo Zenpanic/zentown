@@ -3,10 +3,10 @@ import { FormattedMessage } from 'react-intl';
 import './portfolio.css';
 import './logo2.css';
 import Logo2 from './Logo2';
-import Project2 from './images/project2.jpg';
 import 'tachyons';
 import WoS from './images/screen_wayofspeaking.png';
 import Oeil from './images/screen_oeil.png';
+import ZenTown from './images/screen_zentown.png';
 
 const Portfolio = () => {
 
@@ -54,6 +54,28 @@ const Portfolio = () => {
                             defaultMessage="Source Code Back-End" />
                         </a>
                         <a className="live-link dim" href="https://oeil.herokuapp.com/" target="_blank" rel="noopener"><FormattedMessage
+                            id="portfolio.livelink"
+                            defaultMessage="See Live" />
+                        </a>
+                    </div>
+                </div>
+
+                <div className="project">
+                    <img className="project-image dim" src={ZenTown} alt="ZenTown"></img>
+                    <div className="project-text">
+                        <p className="project-description"><FormattedMessage
+                            id="portfolio-p3-desc"
+                            defaultMessage="ZenTown - The website you're currently browsing. Made with React, Node.js, Express and love." />
+                        </p>
+                        <a className="github-link dim" href="https://github.com/Zenpanic/zentown" target="_blank" rel="noopener"><FormattedMessage
+                            id="portofolio.githublink-frontend"
+                            defaultMessage="Source Code Front-End" />
+                        </a>
+                        <a className="github-link dim" href="https://github.com/Zenpanic/zentown-backend" target="_blank" rel="noopener"><FormattedMessage
+                            id="portofolio.githublink-backend"
+                            defaultMessage="Source Code Back-End" />
+                        </a>
+                        <a className="live-link dim" href="https://zentown.dev" target="_blank" rel="noopener"><FormattedMessage
                             id="portfolio.livelink"
                             defaultMessage="See Live" />
                         </a>

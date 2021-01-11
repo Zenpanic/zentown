@@ -11,6 +11,7 @@ const Contact = props => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+    const [fancyField, setFancyField] = useState('');
 
     const [warningField, setWarningField] = useState('');
 
@@ -29,12 +30,16 @@ const Contact = props => {
         setMessage(e.target.value);
     }
 
+    const onFancyFieldChange = e => {
+        setFancyField(e.target.value);
+    }
+
     const redirectHome = () => {
         props.changePage('Home');
     }
 
     const sendMessage = () => {
-        if (name && email && message) {
+        if (name && email && message && !fancyField.trim()) {
             fetch(HOST_CONTACT, {
                 method: 'post',
                 headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
@@ -77,6 +82,8 @@ const Contact = props => {
                     <label for="contactMessage">Message</label>
                     <textarea id="contactMessage" name="contactMessage" rows="5" cols="50" onChange={onMessageChange} value={message} required></textarea>
                 </div>
+                <label class="fancy-field">You shouldn't write here</label>
+                <input name="phoneNumberartYUIo" class="fancy-field" type="text" autoComplete="off" onChange={onFancyFieldChange} value={fancyField}></input>
                 <div className="contact-element">
                     {warningField}
                     <button className="submitButton" type="submit" onClick={sendMessage}><FormattedMessage

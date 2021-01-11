@@ -56,7 +56,7 @@ const Home = props => {
                     They all have something to gain from having a website, because a website is much more than just a dematerialized catalogue, book or portfolio.
                     It's a 24/7 showcase for your creations, products, ideas, services and values. It's a meeting place, and a hub for sharing information and knowledge. 
                     It's a tool to navigate the world. And above all, it's a living and changing thing, accessible by anyone, anywhere in the world. 
-                    If you're trying to reach a large amount of people, in mosts cases it will also become the first impression you make on them.
+                    If you're trying to reach a large amount of people, in most cases it will also become the first impression you make on them.
                     That's why it is important to get it done the right way, in respect of both your vision and the technical speficities of the web medium." />
                     </p>
                     <div className="homePicture-container">
@@ -102,7 +102,7 @@ const Home = props => {
                                 <FormattedMessage
                                     id="home.process-p1"
                                     defaultMessage="First of all, contact us to tell us about your project. Do you want a minimalist landing page? A display to highlight and sell your products? 
-                        An online art gallery? We encourage you to tell us as much as you can about what you're looking for, and the functionnalities you wish to see integrated, 
+                        An online art gallery? We encourage you to tell us as much as you can about what you're looking for, and the functionalities you wish to see integrated, 
                         so we can start on solid basis. We'll reply within 48 hours (during business days), and we will exchange with you until we have set clear specifications." />
                             </p>
                         </div>
@@ -143,7 +143,7 @@ const Home = props => {
                             <p className="process">
                                 <FormattedMessage
                                     id="home.process-p3"
-                                    defaultMessage="At this time, we'll have a working prototype of the website to show you, in order to ensure you're satisfied with the direction undertaken. 
+                                    defaultMessage="At this time, we'll have a working prototype of the website to show you, in order to ensure you're satisfied with the direction we're taking. 
                         We will listen to your feedback and pursue the development, while implementing the tweaks you may have requested." />
                             </p>
                         </div>

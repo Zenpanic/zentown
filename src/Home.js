@@ -123,7 +123,7 @@ const Home = props => {
                                 <FormattedMessage
                                     id="home.process-p2"
                                     defaultMessage="Based on the specifications precedently discussed, we will draw up a quote and give you an estimated delivery time. If you agree, we will ask you a 
-                        25% down payment and start the development at reception. " />
+                        25% deposit and start the development at reception. " />
                             </p>
                         </div>
                         <div className="processPicture-container">

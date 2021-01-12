@@ -39,8 +39,10 @@ const Legal = () => {
         <h3 className="legal-sub-title">Collecte des données</h3>
 
         <p>Le site zentown.dev ne collecte aucune donnée personnelle de l'utilisateur, à l'exception des données fournies volontairement par ce dernier via le formulaire de contact.
-    <br />Ces données ne sont utilisées que dans le cadre du traitement des demandes de l'utilisateur par le responsable de la publication, et ne sont transmises à aucun tiers.</p>
-
+    <br />Ces données ne sont utilisées que dans le cadre du traitement des demandes de l'utilisateur par le responsable de la publication, et ne sont transmises à aucun tiers.
+    <br /><br />
+    Conformément aux dispositions de la loi 78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, tout utilisateur dispose d'un droit d'accès, de rectification et d'opposition aux données personnelles le concernant, en effectuant sa demande écrite et signée à l'adresse postal du responsable de la publication.
+    </p>
         <h3 className="legal-sub-title">Cookies</h3>
 
         <p>Le site www.zentown.dev n'utilise aucun cookie.</p>
@@ -87,7 +89,10 @@ const Legal = () => {
         <h3 className="legal-sub-title">Privacy</h3>
 
         <p>The website www.zentown.dev does not collect any personal information from the user, except the information provided willingly and explicitly by the user through the contact form.
-        <br />Such data is only used to process the requests from the users by the publication manager, and are not shared with any third party.</p>
+        <br />Such data is only used to process the requests from the users by the publication manager, and are not shared with any third party.
+        <br /><br />
+        In accordance with the provisions of the law 78-17 of January 6, 1978 relating to data processing, files and freedoms, any user has a right of access, rectification and opposition to personal data concerning him, by making his written and signed request to the postal address of the person in charge of the publication.
+        </p>
 
         <h3 className="legal-sub-title">Cookies</h3>
 

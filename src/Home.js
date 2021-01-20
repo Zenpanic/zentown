@@ -6,7 +6,7 @@ import Techs from './Techs';
 import 'tachyons';
 import './home.css';
 
-import Background from './images/background.jpg';
+import Background from './images/background.webp';
 import Robot from './images/robot.png';
 import Presence from './images/presence.png';
 import FirstContact from './images/process/first_contact.png';

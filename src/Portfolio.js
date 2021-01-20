@@ -4,9 +4,9 @@ import './portfolio.css';
 import './logo2.css';
 import Logo2 from './Logo2';
 import 'tachyons';
-import WoS from './images/screen_wayofspeaking.png';
-import Oeil from './images/screen_oeil.png';
-import ZenTown from './images/screen_zentown.png';
+import WoS from './images/screen_wayofspeaking.jpg';
+import Oeil from './images/screen_oeil.jpg';
+import ZenTown from './images/screen_zentown.jpg';
 
 const Portfolio = () => {
 

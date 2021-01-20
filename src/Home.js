@@ -49,7 +49,7 @@ const Home = props => {
                     </span>
                 </h2>
                 <div className="presentation-subcontainer" id="part1">
-                    <p className="presentation">
+                    <p className="presentation grow">
                         <FormattedMessage
                             id="home.presentation-p1"
                             defaultMessage="What do business owners, freelancers, artists, organizations, journalists and clubs have in common?
@@ -73,7 +73,7 @@ const Home = props => {
                     <div className="homePicture-container">
                         <img src={Robot} className="homePicture" alt="Robot" />
                     </div>
-                    <p className="presentation">
+                    <p className="presentation grow">
                         <FormattedMessage
                             id="home.presentation-p2"
                             defaultMessage="ZenTown is here to offer the solution most fitted to your needs. From picking the right color palette for your website to the deployment on 
@@ -98,7 +98,7 @@ const Home = props => {
                                     id="home.process-title1"
                                     defaultMessage="First Contact" />
                             </h3>
-                            <p className="process">
+                            <p className="process grow">
                                 <FormattedMessage
                                     id="home.process-p1"
                                     defaultMessage="First of all, contact us to tell us about your project. Do you want a minimalist landing page? A display to highlight and sell your products? 
@@ -119,7 +119,7 @@ const Home = props => {
                                     id="home.process-title2"
                                     defaultMessage="Project Validation" />
                             </h3>
-                            <p className="process">
+                            <p className="process grow">
                                 <FormattedMessage
                                     id="home.process-p2"
                                     defaultMessage="Based on the specifications precedently discussed, we will draw up a quote and give you an estimated delivery time. If you agree, we will ask you a 
@@ -140,7 +140,7 @@ const Home = props => {
                                     id="home.process-title3"
                                     defaultMessage="Prototype" />
                             </h3>
-                            <p className="process">
+                            <p className="process grow">
                                 <FormattedMessage
                                     id="home.process-p3"
                                     defaultMessage="At this time, we'll have a working prototype of the website to show you, in order to ensure you're satisfied with the direction we're taking. 
@@ -160,7 +160,7 @@ const Home = props => {
                                     id="home.process-title4"
                                     defaultMessage="Deployment" />
                             </h3>
-                            <p className="process">
+                            <p className="process grow">
                                 <FormattedMessage
                                     id="home.process-p4"
                                     defaultMessage="After a thourough testing phase, your website will be deployed and accessible under your domain name. We'll charge you at this point the 
@@ -181,7 +181,7 @@ const Home = props => {
                                     id="home.process-title5"
                                     defaultMessage="Maintenance" />
                             </h3>
-                            <p className="process">
+                            <p className="process grow">
                                 <FormattedMessage
                                     id="home.process-p5"
                                     defaultMessage="If you would like us to take care of the maintenance of your website past the 15 days following the delivery, you can subscribe to the Maintenance 

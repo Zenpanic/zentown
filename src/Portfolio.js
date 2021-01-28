@@ -20,6 +20,24 @@ const Portfolio = () => {
         <>
             <Logo2 tagline={desc} />
 
+            <div className="project">
+                <img className="project-image dim" src={Aquafaba} alt="Aquafaba Temple"></img>
+                <div className="project-text">
+                    <p className="project-description"><FormattedMessage
+                        id="portfolio-p4-desc"
+                        defaultMessage="Aquafaba Temple - An imaginary restaurant webapp, with an integrated delivery solution. Made with Next.js, Strapi CMS and MongoDB." />
+                    </p>
+                    <a className="github-link dim" href="https://github.com/Zenpanic/aquafaba-frontend" target="_blank" rel="noopener"><FormattedMessage
+                        id="portofolio.githublink-frontend"
+                        defaultMessage="Source Code Front-End" />
+                    </a>
+                    <a className="live-link dim" href="https://aquafaba-temple.vercel.app" target="_blank" rel="noopener"><FormattedMessage
+                        id="portfolio.livelink"
+                        defaultMessage="See Live" />
+                    </a>
+                </div>
+            </div>
+
             <div className="container">
                 <div className="project">
                     <img className="project-image dim" src={WoS} alt="Way of Speaking"></img>
@@ -77,24 +95,6 @@ const Portfolio = () => {
                             defaultMessage="Source Code Back-End" />
                         </a>
                         <a className="live-link dim" href="https://zentown.dev" target="_blank" rel="noopener"><FormattedMessage
-                            id="portfolio.livelink"
-                            defaultMessage="See Live" />
-                        </a>
-                    </div>
-                </div>
-
-                <div className="project">
-                    <img className="project-image dim" src={Aquafaba} alt="Aquafaba Temple"></img>
-                    <div className="project-text">
-                        <p className="project-description"><FormattedMessage
-                            id="portfolio-p4-desc"
-                            defaultMessage="Aquafaba Temple - An imaginary restaurant webapp, with an integrated delivery solution. Made with Next.js, Strapi CMS and MongoDB." />
-                        </p>
-                        <a className="github-link dim" href="https://github.com/Zenpanic/aquafaba-frontend" target="_blank" rel="noopener"><FormattedMessage
-                            id="portofolio.githublink-frontend"
-                            defaultMessage="Source Code Front-End" />
-                        </a>
-                        <a className="live-link dim" href="https://aquafaba-temple.vercel.app" target="_blank" rel="noopener"><FormattedMessage
                             id="portfolio.livelink"
                             defaultMessage="See Live" />
                         </a>

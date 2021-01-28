@@ -7,6 +7,7 @@ import 'tachyons';
 import WoS from './images/screen_wayofspeaking.jpg';
 import Oeil from './images/screen_oeil.jpg';
 import ZenTown from './images/screen_zentown.jpg';
+import Aquafaba from './images/screen_aquafaba.jpg';
 
 const Portfolio = () => {
 
@@ -82,23 +83,24 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                {/*  <div className="project">
-                    <img className="project-image dim" src={Project2} alt=""></img>
+                <div className="project">
+                    <img className="project-image dim" src={Aquafaba} alt="Aquafaba Temple"></img>
                     <div className="project-text">
                         <p className="project-description"><FormattedMessage
-                            id="portfolio-p3-desc"
-                            defaultMessage="Description of the 3rd project" />
+                            id="portfolio-p4-desc"
+                            defaultMessage="Aquafaba Temple - An imaginary restaurant webapp, with an integrated delivery solution. Made with Next.js, Strapi CMS and MongoDB." />
                         </p>
-                        <a className="github-link dim" href=""><FormattedMessage
-                            id="portofolio.githublink"
-                            defaultMessage="Source Code" />
+                        <a className="github-link dim" href="https://github.com/Zenpanic/aquafaba-frontend" target="_blank" rel="noopener"><FormattedMessage
+                            id="portofolio.githublink-frontend"
+                            defaultMessage="Source Code Front-End" />
                         </a>
-                        <a className="live-link dim" href=""><FormattedMessage
+                        <a className="live-link dim" href="https://aquafaba-temple.vercel.app" target="_blank" rel="noopener"><FormattedMessage
                             id="portfolio.livelink"
                             defaultMessage="See Live" />
                         </a>
                     </div>
-                </div> */}
+                </div>
+
             </div>
         </>
     )

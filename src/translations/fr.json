@@ -31,6 +31,7 @@
     "portfolio-p1-desc": "Way of Speaking - Une page vitrine pour une professeure d'anglais en ligne. Le front-end est entièrement fait main, le back-end utilise Node.js et Express.",
     "portfolio-p2-desc": "Oeil - Une application web de reconnaissance faciale, qui détecte les visages sur les photos. Développé avec React, Node.js, Express et l'API Clarifai.",
     "portfolio-p3-desc": "ZenTown - Le site sur lequel vous naviguez actuellement. Fait avec React, Node.js, Express et amour.",
+    "portfolio-p4-desc": "Aquafaba Temple - Une application web pour un restaurant imaginaire, avec système de livraison intégré. Développé avec Next.js, Strapi CMS et MongoDB.",
     "portfolio.githublink": "Code Source",
     "portfolio.githublink-frontend": "Code Source Front-End",
     "portfolio.githublink-backend": "Code Source Back-End",

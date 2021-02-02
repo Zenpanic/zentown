@@ -52,12 +52,12 @@ const Home = props => {
                     <p className="presentation grow pointer">
                         <FormattedMessage
                             id="home.presentation-p1"
-                            defaultMessage="What do business owners, freelancers, artists, organizations, journalists and clubs have in common?
+                            defaultMessage="What do business owners, freelancers, artists, organisations, journalists and clubs have in common?
                     They all have something to gain from having a website, because a website is much more than just a dematerialized catalogue, book or portfolio.
                     It's a 24/7 showcase for your creations, products, ideas, services and values. It's a meeting place, and a hub for sharing information and knowledge. 
                     It's a tool to navigate the world. And above all, it's a living and changing thing, accessible by anyone, anywhere in the world. 
                     If you're trying to reach a large amount of people, in most cases it will also become the first impression you make on them.
-                    That's why it is important to get it done the right way, in respect of both your vision and the technical speficities of the web medium." />
+                    That's why it is important to get it done the right way, in respect of both your vision and the technical requirements of the web medium." />
                     </p>
                     <div className="homePicture-container">
                         <img src={Presence} className="homePicture" alt="Robot" />

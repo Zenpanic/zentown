@@ -24,7 +24,7 @@ const Portfolio = () => {
             <div className="container">
 
                 <div className="project">
-                    <img className="project-image dim" src={Zenweather} alt="Zen Weather"></img>
+                    <a href="https://zen-weather.vercel.app/" target="_blank" rel="noopener"><img className="project-image dim" src={Zenweather} alt="Zen Weather"></img></a>
                     <div className="project-text">
                         <p className="project-description"><FormattedMessage
                             id="portfolio-p5-desc"
@@ -42,7 +42,7 @@ const Portfolio = () => {
                 </div>
 
                 <div className="project">
-                    <img className="project-image dim" src={Aquafaba} alt="Aquafaba Temple"></img>
+                    <a href="https://aquafaba-temple.vercel.app" target="_blank" rel="noopener"><img className="project-image dim" src={Aquafaba} alt="Aquafaba Temple"></img></a>
                     <div className="project-text">
                         <p className="project-description"><FormattedMessage
                             id="portfolio-p4-desc"
@@ -60,7 +60,7 @@ const Portfolio = () => {
                 </div>
 
                 <div className="project">
-                    <img className="project-image dim" src={WoS} alt="Way of Speaking"></img>
+                    <a href="https://wayofspeaking.com" target="_blank" rel="noopener"><img className="project-image dim" src={WoS} alt="Way of Speaking"></img></a>
                     <div className="project-text">
                         <p className="project-description"><FormattedMessage
                             id="portfolio-p1-desc"
@@ -78,7 +78,7 @@ const Portfolio = () => {
                 </div>
 
                 <div className="project">
-                    <img className="project-image dim" src={Oeil} alt="Oeil"></img>
+                    <a href="https://oeil.herokuapp.com/" target="_blank" rel="noopener"><img className="project-image dim" src={Oeil} alt="Oeil"></img></a>
                     <div className="project-text">
                         <p className="project-description"><FormattedMessage
                             id="portfolio-p2-desc"
@@ -100,7 +100,7 @@ const Portfolio = () => {
                 </div>
 
                 <div className="project">
-                    <img className="project-image dim" src={ZenTown} alt="ZenTown"></img>
+                    <a href="https://zentown.dev" target="_blank" rel="noopener"><img className="project-image dim" src={ZenTown} alt="ZenTown"></img></a>
                     <div className="project-text">
                         <p className="project-description"><FormattedMessage
                             id="portfolio-p3-desc"

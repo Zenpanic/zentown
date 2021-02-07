@@ -8,6 +8,7 @@ import WoS from './images/screen_wayofspeaking.jpg';
 import Oeil from './images/screen_oeil.jpg';
 import ZenTown from './images/screen_zentown.jpg';
 import Aquafaba from './images/screen_aquafaba.jpg';
+import Zenweather from './images/screen_zenweather.jpg';
 
 const Portfolio = () => {
 
@@ -21,6 +22,24 @@ const Portfolio = () => {
             <Logo2 tagline={desc} />
 
             <div className="container">
+
+                <div className="project">
+                    <img className="project-image dim" src={Zenweather} alt="Zen Weather"></img>
+                    <div className="project-text">
+                        <p className="project-description"><FormattedMessage
+                            id="portfolio-p5-desc"
+                            defaultMessage="Zen Weather - An elegant and minimalist weather web application. Light, without ads nor tracking: just the weather. Made with React and the OpenWeather API." />
+                        </p>
+                        <a className="github-link dim" href="https://github.com/Zenpanic/zen-weather" target="_blank" rel="noopener"><FormattedMessage
+                            id="portofolio.githublink-frontend"
+                            defaultMessage="Source Code" />
+                        </a>
+                        <a className="live-link dim" href="https://zen-weather.vercel.app/" target="_blank" rel="noopener"><FormattedMessage
+                            id="portfolio.livelink"
+                            defaultMessage="See Live" />
+                        </a>
+                    </div>
+                </div>
 
                 <div className="project">
                     <img className="project-image dim" src={Aquafaba} alt="Aquafaba Temple"></img>

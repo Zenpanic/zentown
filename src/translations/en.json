@@ -9,6 +9,7 @@
     "portfolio-p2-desc": "Oeil - A facial recognition app, able to detect the faces in the pictures provided to it. Made with React, Node.js, Express and the Clarifai API.",
     "portfolio-p3-desc": "ZenTown - The website you're currently browsing. Made with React, Node.js, Express and love.",
     "portfolio-p4-desc": "Aquafaba Temple - An imaginary restaurant webapp, with an integrated delivery solution. Made with Next.js, Strapi CMS and MongoDB.",
+    "portfolio-p5-desc": "Zen Weather - An elegant and minimalist weather web application. Light, without ads nor tracking: just the weather. Made with React and the OpenWeather API.",
     "portfolio.githublink": "Source Code",
     "portfolio.githublink-frontend": "Source Code Front-End",
     "portfolio.githublink-backend": "Source Code Back-End",

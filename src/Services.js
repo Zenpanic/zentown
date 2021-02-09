@@ -22,7 +22,7 @@ const Services = props => {
                     id="services.p1"
                     defaultMessage="The features and services built into your website or web app are highly dependant of your needs and requirements. Depending on 
                     whether you want a showcase page to highlight your brand or identity, or an e-commerce platform with hundreds of products to manage and advanced user profiles, 
-                    there will be drastic differences in the approach we will take to the realization of your product."/>
+                    there will be drastic differences in the approach we will take for the realization of your product."/>
                 </p>
                 <p><FormattedMessage
                     id="services.p2"

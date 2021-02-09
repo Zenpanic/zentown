@@ -5,10 +5,12 @@
     line-height: 1.5em;
     font-size: large;
     text-align: justify;
+    color: #3b597a;
 }
 
 p {
     padding: 0.3em 0;
+    font-weight: 500;
 }
 
 .servicesImage {

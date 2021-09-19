@@ -9,6 +9,7 @@ import Oeil from './images/screen_oeil.jpg';
 import ZenTown from './images/screen_zentown.jpg';
 import Aquafaba from './images/screen_aquafaba.jpg';
 import Zenweather from './images/screen_zenweather.jpg';
+import Easyacht from './images/screen_easyacht.png';
 
 const Portfolio = () => {
 
@@ -22,6 +23,20 @@ const Portfolio = () => {
             <Logo2 tagline={desc} />
 
             <div className="container">
+
+                <div className="project">
+                    <a href="https://www.easyacht.app" target="_blank" rel="noopener"><img className="project-image dim" src={Easyacht} alt="easYacht"></img></a>
+                    <div className="project-text">
+                        <p className="project-description"><FormattedMessage
+                            id="portfolio-p6-desc"
+                            defaultMessage="easYacht is a platform that brings together professionals from the nautical industry and individuals looking for a unique experience at sea on board a boat or through the practice of a water sport." />
+                        </p>
+                        <a className="live-link dim" href="https://www.easyacht.app" target="_blank" rel="noopener"><FormattedMessage
+                            id="portfolio.livelink"
+                            defaultMessage="See Live" />
+                        </a>
+                    </div>
+                </div>
 
                 <div className="project">
                     <a href="https://zen-weather.vercel.app/" target="_blank" rel="noopener"><img className="project-image dim" src={Zenweather} alt="Zen Weather"></img></a>

@@ -11,6 +11,7 @@
     "portfolio-p4-desc": "Aquafaba Temple - An imaginary restaurant webapp, with an integrated delivery solution. Made with Next.js, Strapi CMS and MongoDB.",
     "portfolio-p5-desc": "Zen Weather - An elegant and minimalist weather web application. Light, without ads nor tracking: just the weather. Made with React and the OpenWeather API.",
     "portfolio-p6-desc": "easYacht is a platform that brings together professionals from the nautical industry and individuals looking for a unique experience at sea on board a boat or through the practice of a water sport.",
+    "portfolio-p7-desc": "Artiste Promomusique offers a dashboard to the users of the Promomusique service, allowing them to follow the progress of their campaigns, and to access several services, such as the creation of a fan page.",
     "portfolio.githublink": "Source Code",
     "portfolio.githublink-frontend": "Source Code Front-End",
     "portfolio.githublink-backend": "Source Code Back-End",

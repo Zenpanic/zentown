@@ -10,6 +10,7 @@ import ZenTown from './images/screen_zentown.jpg';
 import Aquafaba from './images/screen_aquafaba.jpg';
 import Zenweather from './images/screen_zenweather.jpg';
 import Easyacht from './images/screen_easyacht.png';
+import Artistepromo from './images/screen_artistepromo.png';
 
 const Portfolio = () => {
 
@@ -23,6 +24,20 @@ const Portfolio = () => {
             <Logo2 tagline={desc} />
 
             <div className="container">
+
+                <div className="project">
+                    <a href="https://artiste-promomusique.vercel.app/" target="_blank" rel="noopener"><img className="project-image dim" src={Artistepromo} alt="Artiste Promomusique"></img></a>
+                    <div className="project-text">
+                        <p className="project-description"><FormattedMessage
+                            id="portfolio-p7-desc"
+                            defaultMessage="Artiste Promomusique offers a dashboard to the users of the Promomusique service, allowing them to follow the progress of their campaigns, and to access several services, such as the creation of a fan page." />
+                        </p>
+                        <a className="live-link dim" href="https://artiste-promomusique.vercel.app/" target="_blank" rel="noopener"><FormattedMessage
+                            id="portfolio.livelink"
+                            defaultMessage="See Live" />
+                        </a>
+                    </div>
+                </div>
 
                 <div className="project">
                     <a href="https://www.easyacht.app" target="_blank" rel="noopener"><img className="project-image dim" src={Easyacht} alt="easYacht"></img></a>
